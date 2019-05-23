@@ -1,0 +1,1 @@
+docker run -e HUBOT_SLACK_TOKEN=$1 -v $PWD/scripts:/home/hubot/scripts -d slack-hubot-docker
